@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenue Fashion - An Online Shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/slicknav.min.css">
+    <link rel="stylesheet" href="css/skeletabs.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body onload="loadFunction()">
+    <!-- ===== PRE LOADER ===== -->
+    <div class="preLoaderBox">
+        <div class="preloader"></div>
+    </div>
+    <!-- ===== HEADER SECTION ===== -->
+    <header>
+        <div class="top-header-section">
+            <div class="container">
+                <div class="currency">
+                    <label for="Currency">Currency :</label>
+                    <select id="sBox" class="s-box" name="Currency" id="">
+                        <option value="GBP"><p>GBP</p></option>
+                        <option value="BDT"><p>BDT</p></option>
+                        <option value="USD"><p>USD</p></option>
+                    </select>
+                </div>
+                <div class="sign-up">
+                    <ul>
+                        <li><a href="./signUp.html">Register</a></li>
+                        <li><a href="./signUp.html">Sign In</a></li>
+                        <li><a href="#">empty</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="slider-area">
+            <div class="container">
+                <div class="element">
+                    <div class="logo"><a href="./index.html">avenue <span>fashion</span></a></div>
+                    <div class="search">
+                        <input type="text" placeholder="search">
+                    </div>
+                    <nav>
+                        <ul id="menu">
+                            <li>
+                                <a href="#">mens</a>
+                                <div class="submenu">
+                                    <div class="wrpper">
+                                        <div class="card">
+                                            <h4>casuals</h4>
+                                            <a href="#">Jackets</a>
+                                            <a href="#">Hoodies & Sweatshirts</a>
+                                            <a href="#">Polo Shirts</a>
+                                            <a href="#">Sportswear</a>
+                                            <a href="#">Trousers & Chinos</a>
+                                            <a href="#">T-Shirts</a>
+                                        </div>
+                                        <div class="card">
+                                            <h4>casuals</h4>
+                                            <a href="#">Jackets</a>
+                                            <a href="#">Hoodies & Sweatshirts</a>
+                                            <a href="#">Polo Shirts</a>
+                                            <a href="#">Sportswear</a>
+                                        </div>
+                                    </div>
+                                    <div class="discount">
+                                        <h3>Autumn sale! <br>up to 50% off</h3>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#">womens</a></li>
+                            <li><a href="brand.html">the brand</a></li>
+                            <li><a href="./localStore.html">local stores</a></li>
+                            <li>
+                                <a href="#">look book</a>
+                                <div class="submenu">
+                                    <div class="wrpper">
+                                        <div class="card">
+                                            <h4>Our Lookbooks</h4>
+                                            <a href="#">Latest Posts (mixed</a>
+                                            <a href="#">Men’s Lookbook</a>
+                                            <a href="#">Women’s Lookbook</a>
+                                        </div>
+                                        <div class="card">
+                                            <h4>Your Lookbook</h4>
+                                            <a href="#">View and Edit</a>
+                                            <a href="#">Share</a>
+                                            <a href="#">Delete</a>
+                                        </div>
+                                    </div>
+                                    <div class="discount">
+                                        <h3>Autumn sale! <br>up to 50% off</h3>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ===== CATEGORY SECTION ===== -->
+    <section class="category-section">
+        <div class="container">
+            <div class="tab-menu">
+                <div id="container category-list">
+                    <div class="tab-wrapper">
+                        <div class="use-fade" id="container">
+                            <!-- tabGroup -->
+
+                            <!-- ===== MOBILE CATEGORY ===== -->
+                            <div class="categoryBox">
+                                <p><span><i class="fas fa-bars"></i></span>Category</p>
+                            </div>
+                            <div class="tab-btn">
+                                <ul class="skltbs-tab-group">
+                                    <!-- tabItem -->
+                                    <li class="skltbs-tab-item">
+                                        <!-- tab -->
+                                        <button class="skltbs-tab">popular</button>
+                                    </li>
+                                    <li class="skltbs-tab-item">
+                                        <button class="skltbs-tab">new arrivals</button>
+                                    </li>
+                                    <li class="skltbs-tab-item">
+                                        <button class="skltbs-tab">best sellers</button>
+                                    </li>
+                                    <li class="skltbs-tab-item">
+                                        <button class="skltbs-tab">special offers</button>
+                                    </li>
+                                    <li class="skltbs-tab-item">
+                                        <button class="skltbs-tab">coming soon</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- panelGroup -->
+                            <div class="skltbs-panel-group">
+                                <!-- panel -->
+                                <div class="skltbs-panel">
+                                    <div class="tab-content-1">
+                                        <div class="left">
+                                            <div class="top">
+                                                <div class="small wow fadeInLeftBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-01.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small wow fadeInLeftBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-02.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down">
+                                                <div class="big wow fadeInUpBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-04.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="down">
+                                                <div class="big wow fadeInDownBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-03.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="top">
+                                                <div class="small wow fadeInRightBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-02.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small wow fadeInRightBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-06.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skltbs-panel">
+                                    <div class="tab-content-1">
+                                        <div class="left">
+                                            <div class="top">
+                                                <div class="small wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-02.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small wow fadeInLeftBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-01.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down">
+                                                <div class="big wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-03.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="down">
+                                                <div class="big wow fadeInDownBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-04.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="top">
+                                                <div class="small wow fadeInRightBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-02.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small wow fadeInRightBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-06.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skltbs-panel">
+                                    <div class="tab-content-1">
+                                        <div class="left">
+                                            <div class="top">
+                                                <div class="small wow fadeInLeftBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-06.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small wow fadeInLeftBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-02.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down">
+                                                <div class="big wow fadeInUpBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-04.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="down">
+                                                <div class="big wow fadeInDownBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-03.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="top">
+                                                <div class="small wow fadeInRightBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-02.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small wow fadeInRightBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-01.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skltbs-panel">
+                                    <div class="tab-content-1">
+                                        <div class="left">
+                                            <div class="top">
+                                                <div class="small wow fadeInLeftBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-02.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small wow fadeInLeftBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-01.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down">
+                                                <div class="big wow fadeInUpBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-03.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="down">
+                                                <div class="big wow fadeInDownBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-04.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="top">
+                                                <div class="small wow fadeInRightBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-02.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small wow fadeInRightBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-06.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skltbs-panel">
+                                    <div class="tab-content-1">
+                                        <div class="left">
+                                            <div class="top">
+                                                <div class="small wow fadeInLeftBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-01.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small wow fadeInLeftBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-02.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down">
+                                                <div class="big wow fadeInUpBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-04.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="down">
+                                                <div class="big wow fadeInDownBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-03.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="top">
+                                                <div class="small wow fadeInRightBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-02.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small wow fadeInRightBig" data-wow-duration="1.5s">
+                                                    <div class="price">
+                                                        <p>$89.99</p>
+                                                    </div>
+                                                    <img src="./img/img-06.png" alt="">
+                                                    <div class="details">
+                                                        <p>Womens burnt orange casual tee  £29.95</p>
+                                                        <div class="links">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SLIDER SECTION -->
+    <section class="main-slider">
+        <div class="container">
+            <div class="slider">
+                <div class="slide">
+                    <div class="slider-text">
+                        <h2><span>men’s</span><br> lookbook</h2>
+                        <p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer</p>
+                        <a href="#">view now</a>
+                    </div>
+                    <img src="./img/img-07.png" alt="">
+                </div>
+                <div class="slide">
+                    <div class="slider-text">
+                        <h2><span>men’s</span><br> lookbook</h2>
+                        <p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer</p>
+                        <a href="#">view now</a>
+                    </div>
+                    <img src="./img/img-08.png" alt="">
+                </div>
+                <div class="slide">
+                    <div class="slider-text">
+                        <h2><span>men’s</span><br> lookbook</h2>
+                        <p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer</p>
+                        <a href="#">view now</a>
+                    </div>
+                    <img src="./img/img-09.png" alt="">
+                </div>
+                <div class="slide">
+                    <div class="slider-text">
+                        <h2><span>men’s</span><br> lookbook</h2>
+                        <p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer</p>
+                        <a href="#">view now</a>
+                    </div>
+                    <img src="./img/img-07.png" alt="">
+                </div>
+                <div class="slide">
+                    <div class="slider-text">
+                        <h2><span>men’s</span><br> lookbook</h2>
+                        <p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer</p>
+                        <a href="#">view now</a>
+                    </div>
+                    <img src="./img/img-08.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== FOOTER SECTION ===== -->
+    <footer>
+        <div class="container">
+            <div class="meta-wrapper">
+                <div class="meta">
+                    <h4>Information</h4>
+                    <a href="#">The brand</a>
+                    <a href="#">Local stores</a>
+                    <a href="#">Customer service</a>
+                    <a href="#">Privacy & cookies</a>
+                    <a href="#">Site map</a>
+                </div>
+                <div class="meta">
+                    <h4>Why buy from us</h4>
+                    <a href="#">Shipping & returns</a>
+                    <a href="#">Secure shopping</a>
+                    <a href="#">Testimonials</a>
+                    <a href="#">Award winning</a>
+                    <a href="#">Ethical trading</a>
+                </div>
+                <div class="meta">
+                    <h4>Your account</h4>
+                    <a href="#">Sign in</a>
+                    <a href="#">Register</a>
+                    <a href="#">View cart</a>
+                    <a href="#">View your lookbook</a>
+                    <a href="#">Track an order</a>
+                    <a href="#">Update information</a>
+                </div>
+                <div class="meta">
+                    <h4>Lookbook</h4>
+                    <a href="#">Latest posts</a>
+                    <a href="#">Men’s lookbook</a>
+                    <a href="#">Women’s lookbook</a>
+                    <a href="#">Lookbooks RSS feed</a>
+                    <a href="#">View your lookbook</a>
+                    <a href="#">Delete your lookbook</a>
+                </div>
+                <div class="meta">
+                    <h4>contact details</h4>
+                    <a href="#">Head Office: Avenue Fashion, 180-182 Regent Street, London.</a>
+                    <a href="tel:+8801626927939">Telephone: 0123-456-789</a>
+                    <a href="mailto:hridoysaha63@gmail.com">Email: support@yourwebsite.com</a>
+                </div>
+            </div>
+            <div class="link-wrapper">
+                <div class="card">
+                    <h2><span>award winner</span><br> fashion awards 2016</h2>
+                </div>
+                <div class="card card-right">
+                    <div class="links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ===== JS FILES ===== -->
+    <script src="js/jquery.js"></script>
+    <script src="./js/jquery.slicknav.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="js/skeletabs.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+@media (max-width: 1024px) {
+    .container{
+        max-width: 98%;
+        overflow: hidden;
+    }
+    .slider-area .element nav{
+        display: none;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+    .slicknav_nav .submenu .discount{
+        display: none;
+    }
+    .brand-area .element nav {
+        display: none;
+    }
+    section.map .map-wrapper {
+        flex-direction: column;
+    }
+    section.map .map-wrapper .g-map {
+        width: 100%;
+    }
+    section.map .map-wrapper .address {
+        width: 50%;
+        padding-right: 10px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+    .slider-area{
+        background-attachment: fixed;
+    }
+    header .top-header-section .sign-up ul li a{
+        font-size: 12px;
+    }
+    header .top-header-section .sign-up ul li {
+        margin: 0 10px;
+    }
+    .slicknav_menutxt,
+    .slicknav_icon{
+        font-size: 13px;
+    }
+    header .top-header-section .sign-up ul li:nth-child(3) {
+        margin-left: 10px;
+    }
+    .slider-area{
+        max-height: 600px;
+    }
+    .slider-area .element .logo {
+        float: right;
+    }
+    .slider-area .element .search {
+        display: none;
+    }
+    .category-section {
+        padding-bottom: 10px;
+    }
+    /* .tab-menu .desctop-btn{
+        display: none;
+    } */
+    ul.skltbs-tab-group{
+        display: block;
+    }
+    ul.skltbs-tab-group li.skltbs-tab-item {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    ul.skltbs-tab-group li.skltbs-tab-item button {
+        font-size: 10px;
+    }
+    .tab-content-1 {
+        flex-direction: column;
+    }
+    .tab-content-1 .left, .tab-content-1 .right {
+        width: 96%;
+        margin-bottom: 20px;
+    }
+    .slider .slide .slider-text {
+        width: 50%;
+        right: 30px;
+    }
+    .slider .slide .slider-text h2 {
+        font-size: 18px;
+        margin-bottom: -5px;
+    }
+    .slider .slide .slider-text p {
+        font-size: 10px;
+    }
+    .slider .slide .slider-text a {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    footer .meta-wrapper {
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 6rem;
+    }
+    footer .link-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .link-wrapper .card {
+        width: 98%;
+    }
+    footer .link-wrapper .card-right {
+        margin-top: 20px;
+    }
+    /* ===== BRAND PAGE ===== */
+    .brand-product .wrapper {
+        flex-direction: column;
+    }
+    .brand-product .left, .brand-product .right {
+        width: 100%;
+    }
+    .brand-product .left .box, .brand-product .right .box {
+        text-align: center;
+    }
+    .brand-text h2 {
+        font-size: 22px;
+    }
+    .brand-text h3 {
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    .brand-product .brand-slider {
+        flex-wrap: wrap;
+    }
+    .brand-product .brand-slider .single-brand {
+        width: 48%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .brand-text {
+        padding: 120px 0;
+    }
+    section.location {
+        padding: 30px 0;
+    }
+    section.location .card-wrapper {
+        grid-template-columns: auto;
+    }
+    section.location .card-wrapper .card{
+        margin-top: 20px;
+    }
+    section.location .card-wrapper .card a {
+        font-size: 13px;
+    }
+    section.location .card-wrapper .card:last-child{
+        margin-bottom: 30px;
+    }
+    section.sign-reg .wrapper {
+        flex-direction: column;
+    }
+    section.sign-reg .wrapper .signIn, section.sign-reg .wrapper .regestration {
+        width: 100%;
+    }
+    section.sign-reg .wrapper .regestration {
+        margin-top: 30px;
+    }
+    section.sign-reg .wrapper .signIn .submission button, section.sign-reg .wrapper .regestration .submission button {
+        padding: 10px 20px;
+    }
+    section.sign-reg .wrapper .signIn .submission, section.sign-reg .wrapper .regestration .submission {
+        margin-top: 30px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    section.sign-reg .wrapper .signIn .submission button, section.sign-reg .wrapper .regestration .submission button {
+        margin-bottom: 20px;
+    }
+    section.sign-reg .wrapper .regestration .submission a {
+        text-align: left;
+        padding-left: 0;
+    }
+    section.sign-reg .wrapper .regestration .check input {
+        width: 30px;
+        height: 30px;
+    }
+    section.sign-reg .wrapper .regestration .check span {
+        font-size: 11px;
+    }
+}
+@media (max-width: 576px) {
+    .slider-area .element .logo a {
+        font-size: 18px;
+    }
+    .slider-area .element {
+        padding: 10px 0;
+    }
+    /* .skltbs-panel-heading button.skltbs-tab{
+        display: none;
+    } */
+    .categoryBox{
+        display: inline-block;
+    }
+    ul.skltbs-tab-group li.skltbs-tab-item {
+        display: block;
+        margin: 5px 0px;
+    }
+    ul.skltbs-tab-group {
+        display: none;
+    } 
+    .show{
+        display: block !important;
+    }
+    .main-slider {
+        padding: 10px 0;
+    }
+    .slider .slide .slider-text {
+        right: 15px;
+    }
+    .slider .slide .slider-text h2 {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .slider .slide .slider-text p{
+        display: none;
+    }
+    .slider .slide .slider-text a {
+        font-size: 12px;
+        padding: 10px;
+    }
+    footer .meta-wrapper {
+        grid-template-columns: auto;
+        grid-column-gap: 1rem;
+    }
+    footer .link-wrapper .card h2 {
+        font-size: 20px;
+    }
+    /* ===== BRAND PAGE ===== */
+    .brand-area .element .logo {
+        float: right;
+        margin-top: -10px;
+    }
+    .brand-area .element .search {
+        display: none;
+    }
+    .brand-area .element .logo a {
+        font-size: 20px;
+    }
+    .brand-text {
+        padding: 80px 0;
+    }
+    .brand-product .left .text h4, .brand-product .right .text h4 {
+        font-size: 16px;
+    }
+    .brand-product .left .text p, .brand-product .right .text p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    section.map .map-wrapper .address {
+        width: 95%;
+        padding-right: 10px;
+        margin: 0 20px;
+    }
+}
+@media (max-width: 480px){
+    header .top-header-section .sign-up ul li {
+        margin: 0 5px;
+    }
+    header .top-header-section .currency label,
+    header .top-header-section .currency .s-box{
+        font-size: 10px;
+    }
+    .tab-content-1 .left .top, .tab-content-1 .right .top {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .tab-content-1 .right .top, .tab-content-1 .right .top {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .tab-content-1 .left .details p, .tab-content-1 .right .details p{
+        font-size: 10px;
+    }
+    .main-slider .slider .slide{
+        padding: 0;
+    }
+    .slider .slide .slider-text h2 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .slider .slide .slider-text a{
+        display: none;
+    }
+    footer .link-wrapper .card .links a {
+        margin: 0 10px;
+    }
+    footer .link-wrapper .card .links a {
+        font-size: 24px;
+    }
+    /* ===== BRAND PAGE ===== */
+    .brand-product .brand-slider .single-brand {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    section.map .map-wrapper .address span {
+        font-size: 12px;
+    }
+    section.map .map-wrapper .address .address-link a {
+        font-size: 12px;
+    }
+
+
+}
+@media (max-width: 320px) {
+    .slider .slide .slider-text{
+        display: none;
+    }
+    footer .link-wrapper .card h2 {
+        font-size: 16px;
+    }
+}
